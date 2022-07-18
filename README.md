@@ -7,23 +7,38 @@
   Gatsby minimal starter
 </h1>
 
+### Note
+1. You will need to have create an [Onboardbase](https://onboardbase.com/signup) account if you haven't already.
+2. You will need to create a project and add your environment variables on [Onboardbase](https://onboardbase.com/signup)
+
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+Firstly you need to clone the project 
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+```bash
+$ git clone <project>
+$ cd <project>
+```
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm install`
+
+This command is use to install all required dependencies that comes bundled with the starterkit.
+
+1.   **npm run onboardbase**
+
+    This commands runs both `onboardbase login` and `onboardbase setup` at a go to make things fast and straight forward.
+
 
 2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
     npm run develop
     ```
 
